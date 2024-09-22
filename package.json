@@ -1,0 +1,11 @@
+{
+	"license": "UNLICENSED",
+	"type": "module",
+	"scripts": {
+		"lint": "yarn biome lint",
+		"check": "yarn biome check --write ./src"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.2"
+	}
+}
